@@ -2,10 +2,10 @@
 
 /* Variáveis */
 :root {
-    --primary-color: #026773;
+    --primary-color: #4c949c;
     --secondary-color: #3CA6A6;
     --text-color: #024959;
-    --background-color: #F2E3D5;
+    --background-color: #ffffff;
     --button-hover: #012E40;
     --font-body: "Chocolate Classical Sans", serif;
     --font-titulo: "Rakkas", serif;
@@ -15,13 +15,13 @@
 
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 30;
+    padding: 30;
     box-sizing: border-box;
     font-family: var(--font-body);
 }
 
-/* Corpo da página */
+
 body {
     background-color: var(--background-color);
     color: var(--text-color);
