@@ -2,11 +2,11 @@
 
 /* Variáveis */
 :root {
-    --primeira-color: #0a1f96;
-    --segunda-color: #b8251b;
+    --azul: #0a1f96;
+    --vermelho: #b8251b;
     --text-color: #024959;
     --background-color: #ffffff;
-    --button-hover: #deff4c;
+    --amarelo: #deff4c;
     --font-body: "Chocolate Classical Sans", serif;
     --font-titulo: "Rakkas", serif;
 }
@@ -19,7 +19,7 @@
     padding: 30;
     box-sizing: border-box;
     font-family: var(--font-body);
-    color: var(--primeira-color)
+    color: var(--azul)
 }
 
 
@@ -31,12 +31,13 @@ body {
 
 h3 {
     margin-top: 25px;
-    color: var(--segunda-color)
+    color: var(--vermelho)
 }
+
 
 p {
     margin-top: 20px;
-    color: var(--segunda-color)
+    color: var(--vermelho)
 }
 
 img {
