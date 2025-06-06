@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=Rakkas&display=swap');
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&display=swap');
+
+
+
 
 /* Variáveis */
 :root {
@@ -7,8 +14,9 @@
     --text-color: #024959;
     --background-color: #ffffff;
     --amarelo: #deff4c;
-    --font-body: "Chocolate Classical Sans", serif;
+    --font-body: Hand;
     --font-titulo: "Rakkas", serif;
+    --borda: #0b0c5e;
 }
 
 
@@ -20,13 +28,16 @@
     box-sizing: border-box;
     font-family: var(--font-body);
     color: var(--azul)
+ 
 }
 
 
 body {
+   
     background-color: var(--background-color);
     color: var(--text-color);
-    line-height: 1.6;
+    line-height: 1.2;
+  
 }
 
 h3 {
@@ -41,12 +52,15 @@ p {
 }
 
 img {
-    max-width: 90%;
     
+    max-width: 100%;
+    border-top: 8px solid var(--borda);
+    border: 8px solid var(--borda);
+    margin: 8;
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 798px) {
     .conteudo {
         width: 90%;
      
